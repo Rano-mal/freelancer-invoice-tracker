@@ -1,73 +1,38 @@
-# Welcome to your Lovable project
+# Freelancer Invoice Tracker
 
-## Project info
+## 🚀 Overview
+A web-based SaaS app for freelancers working with international clients to track invoices, multi-currency payments, and generate clean financial reports for tax clarity.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🎯 Features
+- Create, edit, and delete invoices
+- Multi-currency support with exchange rate handling
+- Dashboard with monthly income summary
+- Expense tracking
+- Exportable financial reports (CSV / PDF)
+- Client management
 
-## How can I edit this code?
+## 🛠 Tech Stack
+- Frontend: Next.js + React + Tailwind CSS
+- Backend: Node.js / Express (or Next API Routes)
+- Database: PostgreSQL / MongoDB
+- Deployment: Vercel / Netlify / GitHub Pages
 
-There are several ways of editing your application.
+## 📷 Screenshots
+### Dashboard
 
-**Use Lovable**
+<img width="1766" height="1040" alt="Screenshot 2026-03-01 at 2 01 45 PM" src="https://github.com/user-attachments/assets/c7c0d36a-24ca-488d-b0d1-b02fbbdeb676" />
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Expenses
 
-Changes made via Lovable will be committed automatically to this repo.
+<img width="1784" height="1078" alt="Screenshot 2026-03-01 at 2 02 15 PM" src="https://github.com/user-attachments/assets/7cf3a63d-95e7-428a-952b-cd86db25ff49" />
 
-**Use your preferred IDE**
+### Reports
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+<img width="1786" height="1077" alt="Screenshot 2026-03-01 at 2 02 07 PM" src="https://github.com/user-attachments/assets/7cd946a7-d37d-4d19-83ee-6802c8d9f105" />
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🔧 Installation / Running Locally
+```bash
+git clone https://github.com/<your-username>/freelancer-invoice-tracker.git
+cd freelancer-invoice-tracker
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
